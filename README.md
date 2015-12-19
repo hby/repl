@@ -29,7 +29,7 @@ in the `:dev` profile.
 and use it
 
 ```clojure
-(r/explore (range) 10 2)
+(r/explore 10 2 (range))
 ;=> (0 1 "more ...")
 ```
 
