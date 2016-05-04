@@ -88,5 +88,5 @@
                             v (gen/vector (gen/choose 0 9) 11 100)]
                            (let [ev (explore 11 p v)
                                  cev (count ev)]
-                           (= (conj (into [] (take p v)) (str (- (count v) p) " more entries"))
-                              ev))))
+                             (= (conj (into [] (take p v)) (str (- (count v) p) " more entries"))
+                                ev))))
